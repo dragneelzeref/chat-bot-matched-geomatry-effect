@@ -1,0 +1,72 @@
+{
+   "id":"0",
+   "messages":[
+       {
+           "id": "999",
+           "style": "InsightTile",
+           "text": "[Ultimate Why trait block appears, and slots into place on the You tab]",
+           "action": "None",
+           "nextMessageId": "",
+           "delay": 2,
+           "options": []
+       },
+       {
+           "id": "0",
+           "style": "Bot",
+           "text": "Nice!",
+           "action": "InsightGeomatry",
+           "nextMessageId": "",
+           "delay": 1,
+           "options": []
+       },
+       {
+           "id": "1",
+           "style": "Bot",
+           "text": "That's your first trait ${} 😍",
+           "action": "Name",
+           "nextMessageId": "2102",
+           "delay": 1,
+           "options": []
+       },
+       {
+           "id": "2",
+           "style": "Bot",
+           "text": "This is the You tab.",
+           "action": "None",
+           "nextMessageId": "",
+           "delay": 1,
+           "options": []
+       },
+       {
+           "id": "3",
+           "style": "Bot",
+           "text": "This is where you'll discover traits about yourself and your active behaviours.",
+           "action": "None",
+           "nextMessageId": "",
+           "delay": 2,
+           "options": []
+       },
+       {
+           "id": "4",
+           "style": "Bot",
+           "text": "Knowing your own traits will make getting more active much easier 👊",
+           "action": "None",
+           "nextMessageId": "",
+           "delay": 2,
+           "options": [
+               {
+                   "id": "0",
+                   "text": "Sounds great! 😁",
+                   "nextMessageId": "100",
+                   "action": "None"
+               },
+               {
+                   "id": "1",
+                   "text": "ok... 👀",
+                   "nextMessageId": "100",
+                   "action": "None"
+               }
+           ]
+       }
+   ]
+}

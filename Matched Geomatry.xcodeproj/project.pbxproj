@@ -11,6 +11,22 @@
 		4126B10E27D682210078378C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B10D27D682210078378C /* ContentView.swift */; };
 		4126B11027D682220078378C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4126B10F27D682220078378C /* Assets.xcassets */; };
 		4126B11327D682220078378C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4126B11227D682220078378C /* Preview Assets.xcassets */; };
+		4126B12027D682E90078378C /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B11F27D682E90078378C /* Json.swift */; };
+		4126B12327D6834B0078378C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B12227D6834B0078378C /* String.swift */; };
+		4126B12527D683E20078378C /* ChatBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B12427D683E20078378C /* ChatBot.swift */; };
+		4126B12827D6855B0078378C /* UserText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B12727D6855B0078378C /* UserText.swift */; };
+		4126B12A27D685D50078378C /* BotText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B12927D685D50078378C /* BotText.swift */; };
+		4126B12F27D686A30078378C /* TypingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B12E27D686A30078378C /* TypingIndicator.swift */; };
+		4126B13227D6870A0078378C /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13127D6870A0078378C /* DotView.swift */; };
+		4126B13427D687880078378C /* InsightTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13327D687880078378C /* InsightTile.swift */; };
+		4126B13627D689CA0078378C /* ChatBotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13527D689CA0078378C /* ChatBotViewModel.swift */; };
+		4126B13827D68DB60078378C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13727D68DB60078378C /* Message.swift */; };
+		4126B13A27D68DFF0078378C /* ChatBotMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13927D68DFF0078378C /* ChatBotMessage.swift */; };
+		4126B13C27D68E400078378C /* ChatBotOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13B27D68E400078378C /* ChatBotOption.swift */; };
+		4126B13E27D68E750078378C /* ChatBotPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13D27D68E750078378C /* ChatBotPayload.swift */; };
+		4126B14027D691A20078378C /* OptionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B13F27D691A20078378C /* OptionText.swift */; };
+		4126B14227D693EC0078378C /* bot.json in Resources */ = {isa = PBXBuildFile; fileRef = 4126B14127D693EC0078378C /* bot.json */; };
+		4126B14427D697B50078378C /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B14327D697B50078378C /* InsightsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		4126B10D27D682210078378C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4126B10F27D682220078378C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4126B11227D682220078378C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4126B11F27D682E90078378C /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		4126B12227D6834B0078378C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4126B12427D683E20078378C /* ChatBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot.swift; sourceTree = "<group>"; };
+		4126B12727D6855B0078378C /* UserText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserText.swift; sourceTree = "<group>"; };
+		4126B12927D685D50078378C /* BotText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotText.swift; sourceTree = "<group>"; };
+		4126B12E27D686A30078378C /* TypingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingIndicator.swift; sourceTree = "<group>"; };
+		4126B13127D6870A0078378C /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		4126B13327D687880078378C /* InsightTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightTile.swift; sourceTree = "<group>"; };
+		4126B13527D689CA0078378C /* ChatBotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotViewModel.swift; sourceTree = "<group>"; };
+		4126B13727D68DB60078378C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4126B13927D68DFF0078378C /* ChatBotMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotMessage.swift; sourceTree = "<group>"; };
+		4126B13B27D68E400078378C /* ChatBotOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotOption.swift; sourceTree = "<group>"; };
+		4126B13D27D68E750078378C /* ChatBotPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotPayload.swift; sourceTree = "<group>"; };
+		4126B13F27D691A20078378C /* OptionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionText.swift; sourceTree = "<group>"; };
+		4126B14127D693EC0078378C /* bot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bot.json; sourceTree = "<group>"; };
+		4126B14327D697B50078378C /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +83,13 @@
 		4126B10A27D682210078378C /* Matched Geomatry */ = {
 			isa = PBXGroup;
 			children = (
-				4126B10B27D682210078378C /* Matched_GeomatryApp.swift */,
-				4126B10D27D682210078378C /* ContentView.swift */,
-				4126B10F27D682220078378C /* Assets.xcassets */,
+				4126B12D27D6868F0078378C /* ChatBot */,
+				4126B11D27D6828C0078378C /* App */,
+				4126B11927D682410078378C /* Views */,
+				4126B12127D683180078378C /* Extentions */,
+				4126B11E27D682AA0078378C /* Helpers */,
+				4126B11A27D682480078378C /* Models */,
+				4126B11C27D6826A0078378C /* Resources */,
 				4126B11127D682220078378C /* Preview Content */,
 			);
 			path = "Matched Geomatry";
@@ -65,6 +101,90 @@
 				4126B11227D682220078378C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4126B11927D682410078378C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4126B10D27D682210078378C /* ContentView.swift */,
+				4126B14327D697B50078378C /* InsightsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4126B11A27D682480078378C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4126B13727D68DB60078378C /* Message.swift */,
+				4126B13927D68DFF0078378C /* ChatBotMessage.swift */,
+				4126B13B27D68E400078378C /* ChatBotOption.swift */,
+				4126B13D27D68E750078378C /* ChatBotPayload.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4126B11C27D6826A0078378C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4126B14127D693EC0078378C /* bot.json */,
+				4126B10F27D682220078378C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4126B11D27D6828C0078378C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4126B10B27D682210078378C /* Matched_GeomatryApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4126B11E27D682AA0078378C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4126B11F27D682E90078378C /* Json.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4126B12127D683180078378C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				4126B12227D6834B0078378C /* String.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		4126B12627D685490078378C /* Messages Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4126B12727D6855B0078378C /* UserText.swift */,
+				4126B12927D685D50078378C /* BotText.swift */,
+				4126B13327D687880078378C /* InsightTile.swift */,
+			);
+			path = "Messages Styles";
+			sourceTree = "<group>";
+		};
+		4126B12D27D6868F0078378C /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				4126B12427D683E20078378C /* ChatBot.swift */,
+				4126B13527D689CA0078378C /* ChatBotViewModel.swift */,
+				4126B12627D685490078378C /* Messages Styles */,
+				4126B13027D686B70078378C /* Components */,
+			);
+			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		4126B13027D686B70078378C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4126B12E27D686A30078378C /* TypingIndicator.swift */,
+				4126B13127D6870A0078378C /* DotView.swift */,
+				4126B13F27D691A20078378C /* OptionText.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +247,7 @@
 			files = (
 				4126B11327D682220078378C /* Preview Assets.xcassets in Resources */,
 				4126B11027D682220078378C /* Assets.xcassets in Resources */,
+				4126B14227D693EC0078378C /* bot.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +258,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4126B13C27D68E400078378C /* ChatBotOption.swift in Sources */,
+				4126B12F27D686A30078378C /* TypingIndicator.swift in Sources */,
+				4126B13A27D68DFF0078378C /* ChatBotMessage.swift in Sources */,
+				4126B12527D683E20078378C /* ChatBot.swift in Sources */,
+				4126B13427D687880078378C /* InsightTile.swift in Sources */,
+				4126B14427D697B50078378C /* InsightsView.swift in Sources */,
+				4126B13E27D68E750078378C /* ChatBotPayload.swift in Sources */,
+				4126B13227D6870A0078378C /* DotView.swift in Sources */,
+				4126B12027D682E90078378C /* Json.swift in Sources */,
 				4126B10E27D682210078378C /* ContentView.swift in Sources */,
+				4126B14027D691A20078378C /* OptionText.swift in Sources */,
+				4126B12327D6834B0078378C /* String.swift in Sources */,
 				4126B10C27D682210078378C /* Matched_GeomatryApp.swift in Sources */,
+				4126B13627D689CA0078378C /* ChatBotViewModel.swift in Sources */,
+				4126B13827D68DB60078378C /* Message.swift in Sources */,
+				4126B12A27D685D50078378C /* BotText.swift in Sources */,
+				4126B12827D6855B0078378C /* UserText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var botStore = ChatBotViewModel()
+    @Namespace var animation
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            InsightsView(botStore: botStore, animation: animation)
+            ChatBot(botStore: botStore, animation: animation)
+        }
     }
 }
 
